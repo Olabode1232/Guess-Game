@@ -71,7 +71,10 @@ else if (input < secretNumber){
 document.querySelector('.Again').addEventListener('click', function () {
     document.querySelector('.start').innerHTML = 'Start guessing...';
     document.querySelector('.start').style.color = "whitesmoke";
+    // document.querySelector('.twenty').innerHTML = 20;
+    score = 20;
     document.querySelector('.twenty').innerHTML = 20;
+
     document.querySelector('.guess').innerHTML = 'Guess My Number!';
     document.querySelector('body').style.backgroundColor = "  rgb(29, 25, 25)";
     document.querySelector('.input').value = "";
